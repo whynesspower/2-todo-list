@@ -5,6 +5,8 @@ import Button from "../../UI/Button/Button";
 
 import styled from "styled-components";
 
+// we are creating a new component (so basically this file CourseInput will have two components)
+//
 const FormControl = styled.div`
   margin: 0.5rem 0;
 
@@ -38,6 +40,7 @@ const FormControl = styled.div`
     color: red;
   }
 `;
+
 const CourseInput = (props) => {
   const [enteredValue, setEnteredValue] = useState("");
   const [isValid, setIsValid] = useState(true);
